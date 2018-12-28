@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.huaile.marrycarrent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="婚车租赁"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TimerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+            android:name=".FlzsActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".YhhdActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".LmtcActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".YjdcActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".TkcActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".NwmsActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".XfzdzActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Tab01Activity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Tab02Activity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Tab03Activity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".Tab04Activity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".Tab04Activity">
+        </activity>
+        <activity
+            android:name=".ResetpwdActivity"
+            android:parentActivityName=".Tab04Activity"/>
+        <activity
+            android:name=".DisplayActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".ZcppActivity">
+        </activity>
+        <activity android:name=".TjwdActivity"/>
+        <activity android:name=".CkdaActivity"/>
+        <activity android:name=".baomaActivity"/>
+        <activity android:name=".benchiActivity"/>
+        <activity
+            android:name=".DingdanPageActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".DingdanListActivity"/>
+        <activity android:name=".DingdanListActivity">
+        </activity>
+        <activity android:name=".SousuoActivity"/>
+        <activity android:name=".JiaGeYouHuiActivity">
+        </activity>
+        <activity android:name=".SubmitActivity">
+        </activity>
+        <activity android:name=".Xianshi">
+        </activity>
+        <activity android:name=".XbcActivity">
+        </activity>
+        <activity android:name=".XhcActivity">
+        </activity>
+        <activity android:name=".YdxzActivity">
+        </activity>
+    </application>
+
+</manifest>

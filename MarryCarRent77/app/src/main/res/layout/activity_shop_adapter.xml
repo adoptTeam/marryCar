@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:id="@+id/lv_item_check"/>
+
+    <ImageView
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/lv_item_img"
+        android:src="@drawable/car1"
+        android:layout_toRightOf="@id/lv_item_check"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/lv_item_name"
+        android:layout_toRightOf="@+id/lv_item_img"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="宝马汽车"
+        android:layout_alignTop="@id/lv_item_img"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/lv_item_price"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="￥30000" android:layout_marginTop="5dp"
+        android:layout_below="@id/lv_item_name"
+        android:layout_alignLeft="@id/lv_item_name"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/lv_item_add"
+        android:text="+"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"
+        style="?android:attr/buttonStyleSmall"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:id="@+id/lv_item_txt"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignBottom="@id/lv_item_add"
+        android:layout_toLeftOf="@id/lv_item_add"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/lv_item_min"
+        android:text="-"
+        android:padding="2dp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_alignBottom="@id/lv_item_add"
+        android:layout_toLeftOf="@id/lv_item_txt"/>
+
+</RelativeLayout>

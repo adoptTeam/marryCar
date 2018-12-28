@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dingdan_title_label"
+        style="?android:listSeparatorTextViewStyle"/>
+<EditText
+    android:id="@+id/dingdan_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:hint="@string/dingdan_title_hint"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dingdan_details_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <Button
+        android:id="@+id/dingdan_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <CheckBox
+        android:id="@+id/dingdan_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/dingdan_solved_label"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xiexie"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#f7acbc"
+        android:textSize="20dp"/>
+</LinearLayout>

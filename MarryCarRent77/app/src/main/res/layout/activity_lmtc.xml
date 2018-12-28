@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d9333f"
+        android:layout_gravity="center"
+        android:text="快来享受浪漫之旅吧！"
+        android:textSize="30dp" />
+    <ImageButton
+        android:layout_marginTop="5dp"
+        android:id="@+id/tkc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tkc"
+        />
+
+
+    <ImageButton
+        android:id="@+id/nwms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nwms"
+        />
+    <ImageButton
+        android:id="@+id/xfzdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xfzdz"
+        />
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@drawable/dingdan">
+    <TextView
+        android:id="@+id/jiageyouhui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jiageyouhui"
+        android:textSize="30dp"
+        android:textColor="#feeeed"
+        android:layout_marginTop="50dp"
+      android:layout_marginLeft="30dp"
+        android:drawableRight="@drawable/arrow_right"
+      />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:textColor="#feeeed"
+    android:textSize="10dp"
+    android:text="@string/jiage"
+    />
+    <TextView
+        android:id="@+id/chexingfenfu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chexingfenfu"
+        android:textSize="30dp"
+        android:textColor="#feeeed"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:drawableRight="@drawable/arrow_right"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#feeeed"
+        android:textSize="10dp"
+        android:text="@string/chexin"
+        />
+    <TextView
+        android:id="@+id/fangxinzuche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fangxinzuche"
+        android:textSize="30dp"
+        android:textColor="#feeeed"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:drawableRight="@drawable/arrow_right"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#feeeed"
+        android:textSize="10dp"
+        android:text="@string/fangxin"
+        />
+    <Button
+        android:id="@+id/liji"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/LIJI"
+        android:textSize="20dp"
+        android:background="#c9171e"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpage"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1" >
+
+
+    </android.support.v4.view.ViewPager>
+
+    <include layout="@layout/gjl3"
+             android:layout_width="349dp"
+             android:layout_height="80dp"/>
+    "
+
+</LinearLayout>
